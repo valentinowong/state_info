@@ -1,0 +1,6 @@
+<h1><%= @state.name %> <%= @state.symbol %></h1>
+	<h3>Elite Ship Time: <%= @state.elite_ship_time_min %>-<%= @state.elite_ship_time_max %> days</h3>
+		<h3>Pac U Ship Time: <%= @state.pacu_ship_time_min %>-<%= @state.pacu_ship_time_max %> days</h3>
+	<h3>Donatable? <%= @state.donatable %></h3>
+	<p><%= @state.notes %></p>
+<%= link_to 'See All The States', states_path %>
